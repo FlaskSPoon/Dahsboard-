@@ -1,2 +1,2 @@
 # Dahsboard-
-dashboard Admin
+dashboard XDR
