@@ -39,40 +39,40 @@ const routes = [
     secondary: true,
   },
   {
+    name: 'Utilisateurs',
+    layout: '/admin',
+    icon: <MdPeopleAlt className="h-6 w-6" />,
+    path: 'user',
+  },
+  {
     name: 'Articles',
     layout: '/admin',
     icon: <MdForum className="h-6 w-6" />,
-    path: 'data-tables',
+    path: 'not-found',
   },
   {
     name: 'Evènements',
     layout: '/admin',
     icon: <MdCalendarMonth className="h-6 w-6" />,
-    path: 'data-tables',
+    path: 'not-found',
   },
   {
     name: 'Webinaires',
     layout: '/admin',
     icon: <MdVideoChat className="h-6 w-6" />,
-    path: 'data-tables',
+    path: 'not-found',
   },
   {
     name: 'Newsletters',
     layout: '/admin',
     icon: <MdNewspaper className="h-6 w-6" />,
-    path: 'data-tables',
+    path: 'not-found',
   },
   {
     name: 'Témoignages',
     layout: '/admin',
     icon: <MdChat className="h-6 w-6" />,
-    path: 'data-tables',
-  },
-  {
-    name: 'Utilisateurs',
-    layout: '/admin',
-    icon: <MdPeopleAlt className="h-6 w-6" />,
-    path: 'data-tables',
+    path: 'not-found',
   },
 ];
 export default routes;

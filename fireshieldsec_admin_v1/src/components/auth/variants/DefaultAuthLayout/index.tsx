@@ -1,4 +1,4 @@
-import authImg from '/public/img/auth/auth.png';
+import logoImg from '/public/logo-dark.png';
 import NavLink from 'components/link/NavLink';
 import Footer from 'components/footer/FooterAuthDefault';
 function Default(props: { maincard: JSX.Element }) {
@@ -21,7 +21,7 @@ function Default(props: { maincard: JSX.Element }) {
                   fill="#A3AED0"
                 />
               </svg>
-              <p className="ml-3 text-sm text-gray-600">Back to Dashboard</p>
+              <p className="ml-3 text-sm text-gray-600">Retour au Dashboard</p>
             </div>
           </NavLink>
           {maincard}
@@ -32,8 +32,8 @@ function Default(props: { maincard: JSX.Element }) {
             >
               <div className="relative flex h-full w-full">
                 <div
-                  style={{ backgroundImage: `url(${authImg.src})` }}
-                  className="flex h-full w-full bg-cover"
+                  style={{ backgroundImage: `url(${logoImg.src})` }}
+                  className="m-4 mt-[40%] flex h-40 w-full rounded-[20px] bg-white bg-contain bg-center bg-no-repeat"
                 />
               </div>
             </div>

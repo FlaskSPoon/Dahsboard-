@@ -24,7 +24,7 @@ function SidebarHorizon(props: { routes: IRoute[]; [x: string]: any }) {
         <HiX />
       </span>
 
-      <div className={`mx-[36px] mt-[44px] flex items-center`}>
+      <div className={`mx-[36px] mt-[36px] flex items-center`}>
         <Link href="/">
           <Image src={logo_dark} width={219} height={100} alt="logo" />
         </Link>
@@ -32,7 +32,7 @@ function SidebarHorizon(props: { routes: IRoute[]; [x: string]: any }) {
           Fireshield <span className="font-medium">Security</span>
         </div> */}
       </div>
-      <div className="mb-4 mt-[28px] h-px bg-gray-300 dark:bg-white/30" />
+      <div className="mb-6 mt-[16px] h-px bg-gray-300 dark:bg-white/30" />
       {/* Nav item */}
 
       <ul className="mb-auto pt-1">

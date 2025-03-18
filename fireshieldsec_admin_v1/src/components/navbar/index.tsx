@@ -220,7 +220,7 @@ const Navbar = (props: {
                 Paramètres du site
               </a>
               <a
-                href=" "
+                href="/auth/sign-in"
                 className="mt-6 flex flex-row items-center text-sm font-medium text-red-500 hover:text-red-500"
               >
                 <MdLogout className="mr-3 h-5 w-5" /> Déconnexion
