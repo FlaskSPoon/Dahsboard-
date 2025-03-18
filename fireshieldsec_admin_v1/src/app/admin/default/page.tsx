@@ -1,5 +1,5 @@
 'use client';
-import MiniCalendar from 'components/calendar/MiniCalendar';
+
 import {
   MdAutoAwesomeMotion,
   MdCalendarMonth,
@@ -12,9 +12,6 @@ import {
 } from 'react-icons/md';
 
 import Widget from 'components/widget/Widget';
-import ComplexTable from 'components/admin/default/ComplexTable';
-import TaskCard from 'components/admin/default/TaskCard';
-import tableDataComplex from 'variables/data-tables/tableDataComplex';
 
 const Dashboard = () => {
   return (
