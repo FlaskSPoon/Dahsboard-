@@ -11,6 +11,8 @@ import { MdModeEditOutline } from 'react-icons/md';
 import image1 from '/public/img/profile/image1.png';
 import Card from 'components/card';
 import Image from 'next/image';
+import { useState } from 'react';
+import ModalContent from 'components/modal/modalContent';
 
 const Service = () => {
   return (
@@ -18,10 +20,6 @@ const Service = () => {
       <div className="col-span-1 h-fit w-full xl:col-span-1 2xl:col-span-2">
         {/* NFt Banner */}
         <Banner
-          title={'Centre de gestion des services'}
-          content={
-            'Ajouter, modifier, supprimer et gérer l état des services, formations, certifications et des plateformes'
-          }
           buttonOne={{
             title: 'Ajouter un service',
             link: 'service/create',
@@ -30,6 +28,8 @@ const Service = () => {
             title: 'Ajouter une catégorie de service',
             link: 'service/category/',
           }}
+          title={''}
+          content={''}
         />
         {/* Liste des catégories */}
         <div className="mb-5 mt-10 flex flex-col justify-between px-4 md:flex-row md:items-center">
