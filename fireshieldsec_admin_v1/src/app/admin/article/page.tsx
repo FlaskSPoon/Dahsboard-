@@ -19,7 +19,20 @@ const Marketplace = () => {
     <div className="mt-3 grid h-full grid-cols-1 gap-5 xl:grid-cols-2 2xl:grid-cols-3">
       <div className="col-span-1 h-fit w-full xl:col-span-1 2xl:col-span-2">
         {/* NFt Banner */}
-        <Banner />
+        <Banner
+          title={'Centre de gestion des articles'}
+          content={
+            'Ajouter, modifier, supprimer et gérer l état des articles'
+          }
+          buttonOne={{
+            title: 'Ajouter un article',
+            link: 'article/create',
+          }}
+          buttonTwo={{
+            title: 'Ajouter une catégorie de service',
+            link: 'article/category/',
+          }}
+        />
 
         {/* NFt Header */}
         <div className="mb-4 mt-5 flex flex-col justify-between px-4 md:flex-row md:items-center">
@@ -90,7 +103,7 @@ const Marketplace = () => {
         {/* Recenlty Added setion */}
         <div className="mb-5 mt-5 flex items-center justify-between px-[26px]">
           <h4 className="text-2xl font-bold text-navy-700 dark:text-white">
-            Recently Added
+           Ajouter récemment
           </h4>
         </div>
 
