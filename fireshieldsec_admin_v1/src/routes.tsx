@@ -48,31 +48,31 @@ const routes = [
     name: 'Articles',
     layout: '/admin',
     icon: <MdForum className="h-6 w-6" />,
-    path: 'not-found',
+    path: 'article',
   },
   {
     name: 'Evènements',
     layout: '/admin',
     icon: <MdCalendarMonth className="h-6 w-6" />,
-    path: 'not-found',
+    path: 'evenement',
   },
   {
     name: 'Webinaires',
     layout: '/admin',
     icon: <MdVideoChat className="h-6 w-6" />,
-    path: 'not-found',
+    path: 'webinaire',
   },
   {
     name: 'Newsletters',
     layout: '/admin',
     icon: <MdNewspaper className="h-6 w-6" />,
-    path: 'not-found',
+    path: 'newLetter',
   },
   {
     name: 'Témoignages',
     layout: '/admin',
     icon: <MdChat className="h-6 w-6" />,
-    path: 'not-found',
+    path: 'testimonial',
   },
 ];
 export default routes;
